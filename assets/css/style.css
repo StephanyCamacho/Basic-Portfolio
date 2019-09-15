@@ -5,16 +5,46 @@ body{
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     font-weight: 330px;
 }
-
+header{
+    background: white;
+}
+.navbar{
+    padding: 10px;
+    background-color: white; 
+    width: 100%;
+}
+.lists{
+    float: right;
+    padding-top: 25px;
+}
+.name{
+    background: #4aaaa5;
+    width: 40%;
+    padding:2px;
+}
+#myName{
+    color: white;
+    text-align: center;
+}
 h1{
     color: #4aaaa5;
+}
+.container{
+    width: 960px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px ;
+}
+img{
+    float: left;
+    margin-right: 20px;
 }
 .Ocean{
     display: block;
     position: relative;
     float: left;
 }
-
 .imageText{
     position: absolute;
     bottom:0px;
@@ -25,40 +55,8 @@ h1{
     width:92.5%;
 
 }
-
-.container{
-    width: 960px;
-    background: white;
-    margin: 0 auto;
-    margin-top: 20px;
-    padding: 20px ;
-}
-
-header{
-    background: white;
-}
-
 .portfolio-images{
     margin-bottom: 10px;
-
-}
-
-.name{
-    background: #4aaaa5;
-    width: 40%;
-}
-
-#myName{
-    color: white;
-    text-align: center;
-    
-}
-.myInfo{
-    /* float:left; */
-}
-img{
-    float: left;
-    margin-right: 20px;
 }
 .clearfix:after {
     content: " "; /* Older browser do not support empty content */
@@ -70,13 +68,8 @@ img{
 p{
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     color: #777777;
-}
-
-.navbar{
-    padding: 10px;
-    background-color: white; 
-    
-    width: 100%;
+    line-height: 30px;
+    text-align: justify;
 }
 a{
     text-decoration: none;
@@ -91,11 +84,6 @@ a:last-child{
 
 a:hover{
    color: #4aaaa5;
-} 
-
-.lists{
-    float: right;
-    padding-top: 25px;
 }
 
 label{
@@ -128,7 +116,10 @@ button{
 button:focus{
     background-color: #666666;
 }
-
+#Copyright{
+    color: white;
+    text-align: center;
+}
 footer{  
     clear: both;
     border-top: 8px solid #4aaaa5;  
@@ -138,8 +129,4 @@ footer{
     width: 100%;
     height: 50px;
     text-align: center;
-}
-
-.Copyright{
-    color: white;
 }
