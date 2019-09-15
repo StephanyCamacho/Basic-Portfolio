@@ -78,16 +78,13 @@ a{
 a:last-child{
     border:none;
 }
-
 a:hover{
    color: #4aaaa5;
 }
-
 label{
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     color: #777777;
 }
-
 input, textarea{
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     width: 100%;
@@ -96,11 +93,9 @@ input, textarea{
     height: 2em;
     margin: 10px 0px 20px 0px;
 }
-
 textarea{
     height: 15em;
 }
-
 button{
     background-color: #4aaaa5;
     padding: 10px 32px;
@@ -109,7 +104,6 @@ button{
     outline: none;
     box-shadow: none;
 }
-
 button:focus{
     background-color: #666666;
 }
