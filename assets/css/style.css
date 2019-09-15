@@ -3,7 +3,6 @@ body{
     background: url("../images/regal.png");
     background-size: auto, cover;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-    font-weight: 330px;
 }
 header{
     background: white;
@@ -40,23 +39,22 @@ img{
     float: left;
     margin-right: 20px;
 }
-.Group{
-    display: block;
+.imageGrid{
     position: relative;
-    float: left;
+    display:inline-block;
 }
+
 .imageText{
-    bottom:0px;
-    color: white;
+    position: absolute;
+    z-index: 999;
+    bottom: 0px;
+    left:0;
+    right: 0;
+    width:250px;
     background-color: #4aaaa5;
+    color: white;
     text-align: center;
-    display: inline-block;
-    width:100%;
-}
-.portfolio-images{
-    display: block;
-    width: 50%;
-}
+  }
 .clearfix:after {
     content: " "; /* Older browser do not support empty content */
     visibility: hidden;
